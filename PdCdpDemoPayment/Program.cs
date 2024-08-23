@@ -1,8 +1,8 @@
-using Backend.Api.Config;
-using Backend.Api.Data;
-using Backend.Api.Endpoints;
-using Backend.Api.Services;
-using Backend.Api.Utils;
+using PdCdpDemoPayment.Config;
+using PdCdpDemoPayment.Data;
+using PdCdpDemoPayment.Endpoints;
+using PdCdpDemoPayment.Services;
+using PdCdpDemoPayment.Utils;
 using FluentValidation;
 using Serilog;
 

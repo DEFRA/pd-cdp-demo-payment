@@ -1,7 +1,7 @@
-﻿using Backend.Api.Models;
+﻿using PdCdpDemoPayment.Models;
 using FluentValidation;
 
-namespace Backend.Api.Validators;
+namespace PdCdpDemoPayment.Validators;
 
 public class BookValidator : AbstractValidator<Book>
 {

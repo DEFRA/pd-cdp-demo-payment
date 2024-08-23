@@ -1,8 +1,8 @@
-using Backend.Api.Models;
-using Backend.Api.Validators;
+using PdCdpDemoPayment.Models;
+using PdCdpDemoPayment.Validators;
 using MongoDB.Bson;
 
-namespace Backend.Api.Test;
+namespace PdCdpDemoPayment.Test;
 
 using FluentValidation.TestHelper;
 

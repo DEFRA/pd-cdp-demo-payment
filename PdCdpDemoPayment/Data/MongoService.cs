@@ -1,6 +1,6 @@
 ﻿using MongoDB.Driver;
 
-namespace Backend.Api.Data;
+namespace PdCdpDemoPayment.Data;
 
 public abstract class MongoService<T>
 {

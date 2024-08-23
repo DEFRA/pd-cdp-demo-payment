@@ -1,6 +1,6 @@
-﻿using Backend.Api.Models;
+﻿using PdCdpDemoPayment.Models;
 
-namespace Backend.Api.Services;
+namespace PdCdpDemoPayment.Services;
 
 public interface IBookService
 {

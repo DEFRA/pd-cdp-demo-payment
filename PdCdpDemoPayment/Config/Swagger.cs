@@ -1,4 +1,4 @@
-namespace Backend.Api.Config;
+namespace PdCdpDemoPayment.Config;
 
 public static class Swagger
 {

@@ -1,9 +1,9 @@
-﻿using Backend.Api.Models;
-using Backend.Api.Services;
+﻿using PdCdpDemoPayment.Models;
+using PdCdpDemoPayment.Services;
 using FluentValidation;
 using FluentValidation.Results;
 
-namespace Backend.Api.Endpoints;
+namespace PdCdpDemoPayment.Endpoints;
 
 public static class LibraryEndpoints
 {

@@ -1,6 +1,6 @@
 using Serilog.Core;
 
-namespace Backend.Api.Utils;
+namespace PdCdpDemoPayment.Utils;
 
 public static class Proxy
 {

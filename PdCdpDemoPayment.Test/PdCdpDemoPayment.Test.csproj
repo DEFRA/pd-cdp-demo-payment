@@ -27,6 +27,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Backend.Api\Backend.Api.csproj"/>
+    <ProjectReference Include="..\PdCdpDemoPayment\PdCdpDemoPayment.csproj"/>
   </ItemGroup>
 </Project>

@@ -1,8 +1,8 @@
-﻿using Backend.Api.Data;
-using Backend.Api.Models;
+﻿using PdCdpDemoPayment.Data;
+using PdCdpDemoPayment.Models;
 using MongoDB.Driver;
 
-namespace Backend.Api.Services;
+namespace PdCdpDemoPayment.Services;
 
 public class BookService : MongoService<Book>, IBookService
 {
