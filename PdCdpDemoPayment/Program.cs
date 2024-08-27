@@ -33,7 +33,7 @@ builder.Services.AddSingleton<IMongoDbClientFactory>(_ =>
         builder.Configuration.GetValue<string>("Mongo:DatabaseName")!));
 
 // our service
-builder.Services.AddSingleton<IBookService, BookService>();
+builder.Services.AddSingleton<IClaimService, ClaimService>();
 
 // health checks
 builder.Services.AddHealthChecks();
@@ -59,7 +59,7 @@ if (builder.IsSwaggerEnabled())
 }
 
 app.UseRouting();
-app.UseLibraryEndpoints();
+app.UseClaimEndpoints();
 app.MapHealthChecks("/health");
 
 app.Run();

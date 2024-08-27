@@ -29,6 +29,8 @@ RUN dotnet test ../PdCdpDemoPayment.Test
 
 ENV ASPNETCORE_FORWARDEDHEADERS_ENABLED=true
 
+ENTRYPOINT dotnet watch run --urls "http://*:5026"
+
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
